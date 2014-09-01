@@ -1,0 +1,36 @@
+2014-08-03 23:45:39 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:11 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:24 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:51 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author/
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

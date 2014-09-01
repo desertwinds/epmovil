@@ -1,0 +1,771 @@
+2014-08-03 23:45:39 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:11 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:24 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:51 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author/
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-06 21:32:18 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\project\app\Model\User.php, line 50]
+2014-08-06 21:32:18 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /project/users
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:49:20 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\project\app\Controller\UsersController.php, line 19]
+2014-08-06 21:49:20 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /project/users
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:49:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\project\app\Controller\UsersController.php, line 19]
+2014-08-06 21:49:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /project/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:52:05 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-06 21:52:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-06 21:52:23 Error: [NotFoundException] Invalid company
+Request URL: /project/companies/view
+Stack Trace:
+#0 [internal function]: CompaniesController->view()
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompaniesController), Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 21:52:30 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-07 16:54:51 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(36): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-07 16:55:48 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(37): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-07 16:56:09 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(36): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-07 16:58:18 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 16:59:54 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:00:04 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:00:16 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:00:20 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:00:25 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:01:10 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/users/edit/5
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:02:18 Error: [UnauthorizedException] Unauthorized
+Request URL: /project/companies/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(348): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(CompaniesController))
+#2 [internal function]: AuthComponent->startup(Object(CompaniesController))
+#3 C:\xampp\htdocs\project\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 C:\xampp\htdocs\project\lib\Cake\Event\CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(187): Controller->startupProcess()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:20:44 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\project\app\View\Layouts\default.ctp, line 49]
+2014-08-07 17:20:44 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-07 17:20:54 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(46): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-07 17:21:59 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\project\app\View\Users\index.ctp, line 49]
+2014-08-07 17:21:59 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-07 17:22:21 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\project\app\View\Users\index.ctp, line 54]
+2014-08-07 17:22:21 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-07 17:22:36 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Users\index.ctp(49): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(471): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 17:24:42 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in [C:\xampp\htdocs\project\app\View\Users\index.ctp, line 51]
+2014-08-07 17:24:42 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';'
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-07 17:36:24 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /project//logout
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-07 17:47:27 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Users\index.ctp(50): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(471): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-07 22:57:34 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 22:57:37 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 22:58:16 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 22:58:16 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:02:58 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:02:59 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:03:00 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:03:00 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:03:00 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:06:55 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:08:04 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:06 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:07 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:08 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:15 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:16 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:16 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:17 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:17 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:08:58 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\Config\bootstrap.php(109): CakePlugin::load('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\Configure.php(92): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\project\app\webroot\index.php(90): include('C:\\xampp\\htdocs...')
+#4 {main}
+2014-08-07 23:09:19 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Core\App.php(227): CakePlugin::path('BoostCake')
+#1 C:\xampp\htdocs\project\lib\Cake\Core\App.php(549): App::path('View/Helper', 'BoostCake')
+#2 [internal function]: App::load('BoostCakeHtmlHe...')
+#3 [internal function]: spl_autoload_call('BoostCakeHtmlHe...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(130): class_exists('BoostCakeHtmlHe...')
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(886): HelperCollection->load('Html', Array)
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(354): View->loadHelpers()
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(UsersController))
+#8 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-07 23:22:26 Error: [MissingLayoutException] Layout file "C:\xampp\htdocs\project\app\View\Layouts\Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\project\\app\\View\\Layouts\\Array.ctp',
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\View.php(510): View->_getLayoutFileName(Array)
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#4 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-08-07 23:28:52 Error: Fatal Error (1): Call to undefined method PaginatorComponent::pagination() in [C:\xampp\htdocs\project\app\Controller\UsersController.php, line 29]
+2014-08-07 23:28:52 Error: [FatalErrorException] Call to undefined method PaginatorComponent::pagination()
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-07 23:32:46 Error: [MissingControllerException] Controller class BoostCakeController could not be found.
+Exception Attributes: array (
+  'class' => 'BoostCakeController',
+  'plugin' => NULL,
+)
+Request URL: /project/BoostCake/bootstrap2
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-08 00:01:42 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(58): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-08 00:03:49 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\project\lib\Cake\View\View.php(837): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\project\app\View\Layouts\default.ctp(58): View->__get('Auth')
+#3 C:\xampp\htdocs\project\lib\Cake\View\View.php(948): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\lib\Cake\View\View.php(910): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\project\lib\Cake\View\View.php(542): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\project\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-08 00:09:45 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\xampp\htdocs\project\app\View\Layouts\default.ctp, line 63]
+2014-08-08 00:09:45 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-08 00:10:13 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [C:\xampp\htdocs\project\app\View\Layouts\default.ctp, line 63]
+2014-08-08 00:10:13 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /project/
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 63, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

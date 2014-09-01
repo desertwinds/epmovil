@@ -1,0 +1,37 @@
+<?php echo $this->Html->script('jquery-1.6.2.min'); ?>
+<?php echo $this->Html->script('jquery-ui.min'); ?>
+<?php echo $this->Html->script('jquery.ui.datepicker-es'); ?>
+<?php  //echo $this->Html->css('jquery-ui.theme.min');?>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<?php echo $this->Form->create('Order'); ?>
+	<fieldset>
+		<legend><?php echo __('Agregar pedido'); ?></legend>
+	<?php
+		echo $this->Form->input('client_id', array('label' => 'Cliente'));
+		echo $this->Form->input('distribuidor');
+		echo $this->Form->input('company_id', array('label' => 'Empresa'));
+		echo $this->Form->input('factura');
+        ?>
+                <div class="required">
+                    <label for="OrderFecha">Fecha de envío</label>
+                    <div class="input text required">
+                        <input name="data[Order][fecha]" type="text" id="OrderFecha" required="required">
+                    </div>
+                </div>
+        <?php
+                //echo $this->Form->input('envio', array('dateFormat' => 'DMY',
+                //    'separator' => ' de ', 'minYear' => date('Y'), 
+                //    'maxYear' => date('Y') + 1, 'label' => 'Fecha de envío'));
+		echo $this->Form->input('comentario');
+	?>
+              
+	</fieldset>
+
+<script>
+                jQuery(function() {
+                                jQuery( "#OrderFecha" ).datepicker();
+                });
+                </script>
+<?php echo $this->Form->end(__('Submit')); ?>
+
+

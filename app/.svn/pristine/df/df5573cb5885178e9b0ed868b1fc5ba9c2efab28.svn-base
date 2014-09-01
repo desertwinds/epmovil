@@ -1,0 +1,185 @@
+<?php
+App::uses('AppController', 'Controller');
+/**
+ * Orders Controller
+ *
+ * @property Order $Order
+ * @property PaginatorComponent $Paginator
+ */
+class OrdersController extends AppController {
+
+/**
+ * Components
+ *
+ * @var array
+ */
+	public $components = array('Paginator');
+
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
+		$this->Order->recursive = 0;
+		$this->set('orders', $this->Paginator->paginate());
+	}
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id = null) {
+		if (!$this->Order->exists($id)) {
+			throw new NotFoundException(__('Invalid order'));
+		}
+		$options = array('conditions' => array('Order.' . $this->Order->primaryKey => $id));
+		$this->set('order', $this->Order->find('first', $options));
+	}
+
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->Order->create();
+                        $this->request->data['Order']['operador'] = $this->Auth->user('id');
+                        $this->request->data['Order']['emision'] = date('Y-m-d H:i', time());
+                        $fecha = explode("/", $this->request->data['Order']['fecha']);
+                        $this->request->data['Order']['envio']['day'] = $fecha[0];
+                        $this->request->data['Order']['envio']['month'] = $fecha[1];
+                        $this->request->data['Order']['envio']['year'] = $fecha[2];
+                        if (isset($this->request->data['Client']['id'])){
+                            $this->request->data['Order']['client_id'] = $this->request->data['Client']['id'];
+                        }
+                        else{
+                            if ($this->Order->Client->save($this->request->data)){
+                                $this->request->data['Order']['client_id'] = $this->Order->Client->id;
+                            }
+                            else {
+                                $this->Session->setFlash(__('The client could not be saved. Please, try again.'));
+                                return $this->redirect(array('action' => 'index'));
+                            }
+                        }
+			if ($this->Order->save($this->request->data)) {
+				$this->Session->setFlash(__('The order has been saved.'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The order could not be saved. Please, try again.'));
+			}
+		}
+		$clients = $this->Order->Client->find('list');
+                $usuario = $this->Auth->user('type');
+                $userid = $this->Auth->user('id');
+                if ($usuario === 'Superusuario' || $usuario === 'Administrador'){
+                    $companies = $this->Order->Company->find('list');
+                }
+                else{
+                    $this->loadModel('Company'); 
+                    $companies = $this->Company->getCompaniesByUserId($userid);
+                }
+                $distribuidors = $this->Order->distribuidor->find('list', array('conditions' => array('distribuidor.type' => 'Distribuidor')));
+		$this->set(compact('clients', 'companies', 'operadors', 'distribuidors'));
+	}
+
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function edit($id = null) {
+		if (!$this->Order->exists($id)) {
+			throw new NotFoundException(__('Invalid order'));
+		}
+		if ($this->request->is(array('post', 'put'))) {
+			if ($this->Order->save($this->request->data)) {
+				$this->Session->setFlash(__('The order has been saved.'));
+				return $this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The order could not be saved. Please, try again.'));
+			}
+		} else {
+			$options = array('conditions' => array('Order.' . $this->Order->primaryKey => $id));
+			$this->request->data = $this->Order->find('first', $options);
+		}
+		$clients = $this->Order->Client->find('list');
+                $op = $this->Order->findById($id, array('fields' => 'operador'));
+                $operadors = $this->Order->operador->find('list', array('conditions' => array('operador.id' => $op['Order']['operador'])));
+                $usuario = $this->Auth->user('type');
+                $userid = $this->Auth->user('id');
+                if ($usuario === 'Superusuario' || $usuario === 'Administrador'){
+                    $companies = $this->Order->Company->find('list');
+                }
+                else{
+                    $this->loadModel('Company'); 
+                    $companies = $this->Company->getCompaniesByUserId($userid);
+                }
+                $distribuidors = $this->Order->distribuidor->find('list', array('conditions' => array('distribuidor.type' => 'Distribuidor')));
+		$this->set(compact('distribuidors', 'clients', 'companies', 'operadors'));
+	}
+
+/**
+ * delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		$this->Order->id = $id;
+		if (!$this->Order->exists()) {
+			throw new NotFoundException(__('Invalid order'));
+		}
+		$this->request->allowMethod('post', 'delete');
+		if ($this->Order->delete()) {
+			$this->Session->setFlash(__('The order has been deleted.'));
+		} else {
+			$this->Session->setFlash(__('The order could not be deleted. Please, try again.'));
+		}
+		return $this->redirect(array('action' => 'index'));
+	}
+        
+        public function isAuthorized($user) {
+            // All registered users can add posts
+            if (in_array($this->action, array('add', 'edit', 'delete'))) {
+                //$usuario = $this->request->params['pass'][0];
+                //if ($this->Auth->user('id') === $usuario){
+                    return true;
+                //}
+            }
+
+            // The owner of a post can edit and delete it
+            //if (in_array($this->action, array('edit', 'delete'))) {
+            //    $postId = (int) $this->request->params['pass'][0];
+            //    if ($this->Post->isOwnedBy($postId, $user['id'])) {
+            //        return true;
+            //    }
+            //}
+
+            return parent::isAuthorized($user);
+        }
+        
+        public function direccion($rif = null){
+		
+		
+		$this->layout = false;
+		if ($this->request->is('get')) 
+		{
+		$direccion = $this->Order->Client->find('all', array('conditions' => array('Client.rif' => $rif)));
+                if ($direccion != null){
+		$this->set('direccion', $direccion[0]);
+                }
+		
+		}
+                
+                $this->render('/Elements/direccion');
+	
+	}
+}

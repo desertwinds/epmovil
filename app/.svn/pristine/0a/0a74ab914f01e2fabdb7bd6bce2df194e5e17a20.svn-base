@@ -1,0 +1,19 @@
+<?php
+if (isset ($direccion))
+{
+echo $this->Form->input('Client.id',array('value' => $direccion['Client']['id'], 'readonly' => true));
+echo $this->Form->input('Client.name', array('label' => 'Nombre', 'value' => $direccion['Client']['name'], 'readonly' => true));
+echo $this->Form->input('Client.telefono', array('label' => 'Teléfono', 'value' => $direccion['Client']['telefono'], 'readonly' => true));
+echo $this->Form->input('Client.direccion',array('value' => $direccion['Client']['direccion'], 'readonly' => true, 'label' => 'Dirección'));
+echo $this->Form->input('Client.referencia', array('value' => $direccion['Client']['referencia'], 'readonly' => true));
+echo $this->Form->input('Client.contacto', array('value' => $direccion['Client']['contacto'], 'readonly' => true));
+}
+else
+	{
+echo $this->Form->input('Client.name', array('label' => 'Nombre'));
+echo $this->Form->input('Client.telefono', array('label' => 'Teléfono'));
+echo $this->Form->input('Client.direccion',array('label' => 'Dirección'));
+echo $this->Form->input('Client.referencia');
+echo $this->Form->input('Client.contacto');
+	}
+?>

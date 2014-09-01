@@ -1,0 +1,17 @@
+
+<?php echo $this->Form->create('Order'); ?>
+	<fieldset>
+		<legend><?php echo __('Agregar pedido'); ?></legend>
+	<?php
+		echo $this->Form->input('client_id', array('label' => 'Cliente'));
+		echo $this->Form->input('distribuidor');
+		echo $this->Form->input('company_id', array('label' => 'Empresa'));
+		echo $this->Form->input('factura');
+		echo $this->Form->input('emision');
+		echo $this->Form->input('envio');
+		echo $this->Form->input('comentario');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+
+

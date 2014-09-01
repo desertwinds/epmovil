@@ -1,0 +1,108 @@
+2014-08-03 23:45:39 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:11 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:24 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-03 23:46:51 Error: [MissingControllerException] Controller class AuthorController could not be found.
+Exception Attributes: array (
+  'class' => 'AuthorController',
+  'plugin' => NULL,
+)
+Request URL: /project/author/
+Stack Trace:
+#0 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-06 21:32:18 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\project\app\Model\User.php, line 50]
+2014-08-06 21:32:18 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /project/users
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:49:20 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\project\app\Controller\UsersController.php, line 19]
+2014-08-06 21:49:20 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /project/users
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:49:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\xampp\htdocs\project\app\Controller\UsersController.php, line 19]
+2014-08-06 21:49:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /project/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\project\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-06 21:52:05 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-06 21:52:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-06 21:52:23 Error: [NotFoundException] Invalid company
+Request URL: /project/companies/view
+Stack Trace:
+#0 [internal function]: CompaniesController->view()
+#1 C:\xampp\htdocs\project\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CompaniesController), Array)
+#2 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CompaniesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-06 21:52:30 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /project/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\project\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\project\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

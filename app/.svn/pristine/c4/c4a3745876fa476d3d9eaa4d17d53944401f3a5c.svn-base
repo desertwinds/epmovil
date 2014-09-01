@@ -1,0 +1,142 @@
+<?php
+App::uses('AppModel', 'Model');
+/**
+ * Order Model
+ *
+ * @property Client $Client
+ * @property Company $Company
+ */
+class Order extends AppModel {
+
+/**
+ * Validation rules
+ *
+ * @var array
+ */
+	public $validate = array(
+		'client_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		//'operador' => array(
+		//	'numeric' => array(
+		//		'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+		//	),
+		//),
+		//'distribuidor' => array(
+		//	'numeric' => array(
+		//		'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+		//	),
+		//),
+		'company_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'factura' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+                        'isUnique' => array (
+                                'rule' => 'isUnique',
+                                'message' => 'La factura ya existe.'
+                        ),
+		),
+		'emision' => array(
+			'datetime' => array(
+				'rule' => array('datetime'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'envio' => array(
+			'datetime' => array(
+				'rule' => array('datetime'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'status' => array(
+			'notEmpty' => array(
+				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+                        'valid' => array(
+				'rule' => array('inList', array('En proceso', 'Cancelada', 'Entregada')),
+				'message' => 'El estado actual de la orden',
+				'allowEmpty' => false
+                        )
+		),
+	);
+
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'Client' => array(
+			'className' => 'Client',
+			'foreignKey' => 'client_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Company' => array(
+			'className' => 'Company',
+			'foreignKey' => 'company_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+                'operador' => array(
+			'className' => 'User',
+			'foreignKey' => 'operador',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'distribuidor' => array(
+			'className' => 'User',
+			'foreignKey' => 'distribuidor'
+		)
+	);
+}

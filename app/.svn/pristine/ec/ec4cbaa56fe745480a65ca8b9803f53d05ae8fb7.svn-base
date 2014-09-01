@@ -1,0 +1,69 @@
+<?php  echo $this->Html->css('cake.previous');?>
+<div class="orders view">
+<h2><?php echo __('Order'); ?></h2>
+	<dl>
+		<dt><?php echo __('Id'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['id']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Client'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($order['Client']['name'], array('controller' => 'clients', 'action' => 'view', $order['Client']['id'])); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Operador'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['operador']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Distribuidor'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['distribuidor']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Company'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($order['Company']['name'], array('controller' => 'companies', 'action' => 'view', $order['Company']['id'])); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Factura'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['factura']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Emision'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['emision']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Envio'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['envio']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Comentario'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['comentario']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Status'); ?></dt>
+		<dd>
+			<?php echo h($order['Order']['status']); ?>
+			&nbsp;
+		</dd>
+	</dl>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('Edit Order'), array('action' => 'edit', $order['Order']['id'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Delete Order'), array('action' => 'delete', $order['Order']['id']), array(), __('Are you sure you want to delete # %s?', $order['Order']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('List Orders'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Order'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Clients'), array('controller' => 'clients', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Client'), array('controller' => 'clients', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Companies'), array('controller' => 'companies', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Company'), array('controller' => 'companies', 'action' => 'add')); ?> </li>
+	</ul>
+</div>

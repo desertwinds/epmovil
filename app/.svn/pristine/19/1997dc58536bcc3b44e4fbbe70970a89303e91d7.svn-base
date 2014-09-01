@@ -1,0 +1,17 @@
+<?php  echo $this->Html->css('cake.previous'); ?>
+<?php echo $this->Form->create('User'); ?>
+	<fieldset>
+		<legend><?php echo __('Agregar usuario'); ?></legend>
+	<?php
+		echo $this->Form->input('name', array('label' => 'Nombre de usuario'));
+		echo $this->Form->input('password', array('label' => 'Contraseña'));
+		echo $this->Form->input('type', array('options' => array(
+                    'Superusuario' => 'Superusuario', 'Administrador' => 'Administrador',
+                    'Ventas' => 'Ventas', 'Distribuidor' => 'Distribuidor'),
+                    'label' => 'Tipo de usuario'));
+		echo $this->Form->input('Company', array('label' => 'Empresa(s)', 
+                    'multiple' => 'checkbox'));
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Crear')); ?>
+

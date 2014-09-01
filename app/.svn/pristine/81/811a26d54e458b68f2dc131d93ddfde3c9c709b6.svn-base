@@ -1,0 +1,635 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-08-13 15:50-0430\n"
+"PO-Revision-Date: 2014-08-13 16:11-0430\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.7\n"
+"Language: es_VE\n"
+
+#: Controller/AppController.php:88
+msgid "¿Cómo llegaste ahí? No deberías ver eso."
+msgstr "¿Cómo llegaste ahí? No deberías ver eso."
+
+#: Controller/ClientsController.php:41;73;98
+msgid "Invalid client"
+msgstr "Cliente inválido."
+
+#: Controller/ClientsController.php:56;77
+msgid "The client has been saved."
+msgstr "Se guardó el cliente."
+
+#: Controller/ClientsController.php:59;80
+msgid "The client could not be saved. Please, try again."
+msgstr "El cliente no pudo ser guardado. Por favor, intenta de nuevo."
+
+#: Controller/ClientsController.php:102
+msgid "The client has been deleted."
+msgstr "El cliente fue borrado."
+
+#: Controller/ClientsController.php:104
+msgid "The client could not be deleted. Please, try again."
+msgstr "El cliente no pudo ser borrado. Por favor, intenta de nuevo."
+
+#: Controller/CompaniesController.php:41;75;102
+msgid "Invalid company"
+msgstr "Empresa inválida"
+
+#: Controller/CompaniesController.php:56;79
+msgid "The company has been saved."
+msgstr "Se guardó la empresa."
+
+#: Controller/CompaniesController.php:59;82
+msgid "The company could not be saved. Please, try again."
+msgstr "La empresa no pudo ser guardada. Por favor, intenta de nuevo."
+
+#: Controller/CompaniesController.php:106
+msgid "The company has been deleted."
+msgstr "La empresa fue borrada."
+
+#: Controller/CompaniesController.php:108
+msgid "The company could not be deleted. Please, try again."
+msgstr "La empresa no pudo ser borrada. Por favor, intenta de nuevo."
+
+#: Controller/CompaniesUsersController.php:37;72;100
+msgid "Invalid companies user"
+msgstr "Relación inválida."
+
+#: Controller/CompaniesUsersController.php:52;76
+msgid "The companies user has been saved."
+msgstr "La relación fue guardada."
+
+#: Controller/CompaniesUsersController.php:55;79
+msgid "The companies user could not be saved. Please, try again."
+msgstr "La relación no se guardó."
+
+#: Controller/CompaniesUsersController.php:104
+msgid "The companies user has been deleted."
+msgstr "La relación fue borrada."
+
+#: Controller/CompaniesUsersController.php:106
+msgid "The companies user could not be deleted. Please, try again."
+msgstr "La relación no fue borrada."
+
+#: Controller/OrdersController.php:37;84;123
+msgid "Invalid order"
+msgstr "Pedido inválido"
+
+#: Controller/OrdersController.php:55;88
+msgid "The order has been saved."
+msgstr "Se guardó el pedido."
+
+#: Controller/OrdersController.php:58;91
+msgid "The order could not be saved. Please, try again."
+msgstr "El pedido no pudo ser guardado. Por favor, intenta de nuevo."
+
+#: Controller/OrdersController.php:127
+msgid "The order has been deleted."
+msgstr "El pedido fue borrado."
+
+#: Controller/OrdersController.php:129
+msgid "The order could not be deleted. Please, try again."
+msgstr "El pedido no pudo ser borrado. Por favor, intenta de nuevo."
+
+#: Controller/UsersController.php:42;76;104;162
+msgid "Invalid user"
+msgstr "Usuario inválido"
+
+#: Controller/UsersController.php:57
+msgid "El usuario fue creado."
+msgstr "El usuario fue creado."
+
+#: Controller/UsersController.php:60
+msgid "El usuario no se pudo crear."
+msgstr "El usuario no se pudo crear."
+
+#: Controller/UsersController.php:80
+msgid "Cambio de información exitoso."
+msgstr "Cambio de información exitoso."
+
+#: Controller/UsersController.php:83;169
+msgid "Ocurrió un error, intenta más tarde."
+msgstr "Ocurrió un error, intenta más tarde."
+
+#: Controller/UsersController.php:108
+msgid "The user has been deleted."
+msgstr "El usuario fue borrado."
+
+#: Controller/UsersController.php:110
+msgid "The user could not be deleted. Please, try again."
+msgstr "El usuario no pudo ser borrado. Intenta de nuevo."
+
+#: Controller/UsersController.php:117
+msgid "Ya estas conectado."
+msgstr "Ya estas conectado."
+
+#: Controller/UsersController.php:124
+msgid "Usuario o contraseña inválida"
+msgstr "Usuario o contraseña inválida."
+
+#: Controller/UsersController.php:166
+msgid "Cambio de contraseña exitoso."
+msgstr "Cambio de contraseña exitoso."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:18
+msgid "Debug setting does not allow access to this url."
+msgstr "No está permitido acceder a esta página."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:27
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:6
+msgid "Alert notice message testing..."
+msgstr "Alert notice message testing..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:30;41
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:10
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:6
+msgid "Alert success message testing..."
+msgstr "Alert success message testing..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:34
+#: Plugin/BoostCake/View/Elements/bootstrap2/alerts.ctp:15
+msgid "Alert error message testing..."
+msgstr "Alert error message testing..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:45
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:11
+msgid "Alert info message testing..."
+msgstr "Alert info message testing..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:49
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:16
+msgid "Alert warning message testing..."
+msgstr "Alert warning message testing..."
+
+#: Plugin/BoostCake/Controller/BoostCakeController.php:53
+#: Plugin/BoostCake/View/Elements/bootstrap3/alerts.ctp:21
+msgid "Alert danger message testing..."
+msgstr "Alert danger message testing..."
+
+#: View/Clients/add.ctp:4
+msgid "Crear Cliente"
+msgstr "Crear Cliente"
+
+#: View/Clients/add.ctp:15 View/Companies/add.ctp:9 View/Users/add.ctp:16
+msgid "Crear"
+msgstr "Crear"
+
+#: View/Clients/edit.ctp:4
+msgid "Editar Cliente"
+msgstr "Editar Cliente"
+
+#: View/Clients/edit.ctp:16 View/Companies/edit.ctp:10
+#: View/Users/change_password.ctp:10 View/Users/edit.ctp:15
+msgid "Actualizar"
+msgstr "Actualizar"
+
+#: View/Clients/index.ctp:2
+msgid "Clientes"
+msgstr "Clientes"
+
+#: View/Clients/index.ctp:29 View/Clients/view.ctp:84
+#: View/Companies/index.ctp:17 View/Companies/view.ctp:39
+#: View/Orders/index.ctp:37 View/Users/index.ctp:19 View/Users/view.ctp:50
+msgid "Ver"
+msgstr "Ver"
+
+#: View/Clients/index.ctp:30 View/Clients/view.ctp:51
+#: View/Companies/index.ctp:18 View/Orders/index.ctp:38
+#: View/Users/index.ctp:20 View/Users/view.ctp:28;51
+msgid "Editar"
+msgstr "Editar"
+
+#: View/Clients/index.ctp:31 View/Clients/view.ctp:52
+#: View/Companies/index.ctp:19 View/Orders/index.ctp:39
+#: View/Users/index.ctp:21 View/Users/view.ctp:32;52
+msgid "Eliminar"
+msgstr "Eliminar"
+
+#: View/Clients/index.ctp:31
+msgid "Seguro quieres eliminar el cliente %s?"
+msgstr "Seguro quieres eliminar el cliente %s?"
+
+#: View/Clients/index.ctp:40
+msgid ""
+"Página {:page} de {:pages}, mostrando {:current} cliente(s) de un total de {:"
+"count}, comenzando en el cliente {:start}, terminando en el {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} cliente(s) de un total de {:"
+"count}, comenzando en el cliente {:start}, terminando en el {:end}"
+
+#: View/Clients/index.ctp:45 View/Companies/index.ctp:33
+#: View/Orders/index.ctp:53 View/Users/index.ctp:35
+msgid "Anterior"
+msgstr "Anterior"
+
+#: View/Clients/index.ctp:47 View/Companies/index.ctp:35
+#: View/Orders/index.ctp:55 View/Users/index.ctp:37
+msgid "Siguiente"
+msgstr "Siguiente"
+
+#: View/Clients/index.ctp:52 View/Clients/view.ctp:49
+#: View/Companies/index.ctp:40 View/Companies/view.ctp:18
+#: View/Orders/index.ctp:60 View/Orders/view.ctp:58 View/Users/index.ctp:42
+#: View/Users/view.ctp:25;43
+msgid "Acciones"
+msgstr "Acciones"
+
+#: View/Clients/index.ctp:54
+msgid "Nuevo Cliente"
+msgstr "Nuevo Cliente"
+
+#: View/Clients/view.ctp:3 View/Orders/view.ctp:10
+msgid "Cliente"
+msgstr "Cliente"
+
+#: View/Clients/view.ctp:5 View/Companies/view.ctp:5
+#: View/CompaniesUsers/view.ctp:4 View/Orders/view.ctp:5
+#: View/Users/view.ctp:5;41
+msgid "Id"
+msgstr "Id"
+
+#: View/Clients/view.ctp:10 View/Companies/view.ctp:30
+#: View/Users/view.ctp:10;42
+msgid "Nombre"
+msgstr "Nombre"
+
+#: View/Clients/view.ctp:15
+msgid "RIF"
+msgstr "RIF"
+
+#: View/Clients/view.ctp:20
+msgid "Teléfono"
+msgstr "Teléfono"
+
+#: View/Clients/view.ctp:25
+msgid "Dirección"
+msgstr "Dirección"
+
+#: View/Clients/view.ctp:30
+msgid "Referencia"
+msgstr "Referencia"
+
+#: View/Clients/view.ctp:35
+msgid "Contacto"
+msgstr "Contacto"
+
+#: View/Clients/view.ctp:40;68 View/Orders/view.ctp:45
+msgid "Comentario"
+msgstr "Comentario"
+
+#: View/Clients/view.ctp:52
+msgid "¿Seguro quieres eliminar al clinte %s?"
+msgstr "¿Seguro quieres eliminar al clinte %s?"
+
+#: View/Clients/view.ctp:57
+msgid "Pedidos anteriores"
+msgstr "Pedidos anteriores"
+
+#: View/Clients/view.ctp:62 View/Orders/view.ctp:15
+msgid "Operador"
+msgstr "Operador"
+
+#: View/Clients/view.ctp:63 View/Orders/view.ctp:20
+msgid "Distribuidor"
+msgstr "Distribuidor"
+
+#: View/Clients/view.ctp:64
+msgid "Company Id"
+msgstr "Company Id"
+
+#: View/Clients/view.ctp:65 View/Orders/view.ctp:30
+msgid "Factura"
+msgstr "Factura"
+
+#: View/Clients/view.ctp:66
+msgid "Emision"
+msgstr "Emision"
+
+#: View/Clients/view.ctp:67
+msgid "Envio"
+msgstr "Envio"
+
+#: View/Clients/view.ctp:69
+msgid "Status"
+msgstr "Estado"
+
+#: View/Clients/view.ctp:70 View/CompaniesUsers/add.ctp:13
+#: View/CompaniesUsers/edit.ctp:14 View/CompaniesUsers/index.ctp:9;46
+#: View/CompaniesUsers/view.ctp:22
+msgid "Actions"
+msgstr "Acciones"
+
+#: View/Companies/add.ctp:4
+msgid "Agregar empresa"
+msgstr "Agregar empresa"
+
+#: View/Companies/edit.ctp:4 View/Companies/view.ctp:20
+msgid "Editar empresa"
+msgstr "Editar empresa"
+
+#: View/Companies/index.ctp:2
+msgid "Empresas"
+msgstr "Empresas"
+
+#: View/Companies/index.ctp:19 View/Companies/view.ctp:21
+msgid "¿Seguro que desea eliminar la empresa %s?"
+msgstr "¿Seguro que desea eliminar la empresa %s?"
+
+#: View/Companies/index.ctp:28
+msgid ""
+"Página {:page} de {:pages}, mostrando {:current} empresa(s) de un total de {:"
+"count}, comenzando en la empresa {:start}, terminando en la {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} empresa(s) de un total de {:"
+"count}, comenzando en la empresa {:start}, terminando en la {:end}"
+
+#: View/Companies/index.ctp:42 View/Companies/view.ctp:22
+msgid "Nueva empresa"
+msgstr "Nueva empresa"
+
+#: View/Companies/view.ctp:3 View/Orders/view.ctp:25
+msgid "Empresa"
+msgstr "Empresa"
+
+#: View/Companies/view.ctp:10
+msgid "Name"
+msgstr "Nombre"
+
+#: View/Companies/view.ctp:21
+msgid "Eliminar empresa"
+msgstr "Eliminar empresa"
+
+#: View/Companies/view.ctp:26
+msgid "Usuarios relacionados"
+msgstr "Usuarios relacionados"
+
+#: View/Companies/view.ctp:31 View/Users/view.ctp:16
+msgid "Tipo"
+msgstr "Tipo"
+
+#: View/CompaniesUsers/add.ctp:4
+msgid "Add Companies User"
+msgstr "Agregar relación"
+
+#: View/CompaniesUsers/add.ctp:10 View/CompaniesUsers/edit.ctp:11
+#: View/Orders/add.ctp:13 View/Orders/edit.ctp:19
+msgid "Submit"
+msgstr "Aceptar"
+
+#: View/CompaniesUsers/add.ctp:16 View/CompaniesUsers/edit.ctp:18
+#: View/CompaniesUsers/view.ctp:26
+msgid "List Companies Users"
+msgstr "Listar relaciones"
+
+#: View/CompaniesUsers/add.ctp:17 View/CompaniesUsers/edit.ctp:19
+#: View/CompaniesUsers/index.ctp:49 View/CompaniesUsers/view.ctp:28
+msgid "List Companies"
+msgstr "Listar empresas"
+
+#: View/CompaniesUsers/add.ctp:18 View/CompaniesUsers/edit.ctp:20
+#: View/CompaniesUsers/index.ctp:50 View/CompaniesUsers/view.ctp:29
+msgid "New Company"
+msgstr "Nueva empresa"
+
+#: View/CompaniesUsers/add.ctp:19 View/CompaniesUsers/edit.ctp:21
+#: View/CompaniesUsers/index.ctp:51 View/CompaniesUsers/view.ctp:30
+msgid "List Users"
+msgstr "Listar usuarios"
+
+#: View/CompaniesUsers/add.ctp:20 View/CompaniesUsers/edit.ctp:22
+#: View/CompaniesUsers/index.ctp:52 View/CompaniesUsers/view.ctp:31
+msgid "New User"
+msgstr "Nuevo usuario"
+
+#: View/CompaniesUsers/edit.ctp:4 View/CompaniesUsers/view.ctp:24
+msgid "Edit Companies User"
+msgstr "Editar relaciones"
+
+#: View/CompaniesUsers/edit.ctp:17 View/CompaniesUsers/index.ctp:25
+msgid "Delete"
+msgstr "Eliminar"
+
+#: View/CompaniesUsers/edit.ctp:17 View/CompaniesUsers/index.ctp:25
+#: View/CompaniesUsers/view.ctp:25 View/Orders/index.ctp:39
+#: View/Orders/view.ctp:61 View/Users/view.ctp:52
+msgid "Are you sure you want to delete # %s?"
+msgstr "¿Seguro que quieres eliminar  # %s?"
+
+#: View/CompaniesUsers/index.ctp:2
+msgid "Companies Users"
+msgstr "Relaciones"
+
+#: View/CompaniesUsers/index.ctp:23
+msgid "View"
+msgstr "Ver"
+
+#: View/CompaniesUsers/index.ctp:24
+msgid "Edit"
+msgstr "Editar"
+
+#: View/CompaniesUsers/index.ctp:34
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+
+#: View/CompaniesUsers/index.ctp:39
+msgid "previous"
+msgstr "Anterior"
+
+#: View/CompaniesUsers/index.ctp:41
+msgid "next"
+msgstr "Siguiente"
+
+#: View/CompaniesUsers/index.ctp:48 View/CompaniesUsers/view.ctp:27
+msgid "New Companies User"
+msgstr "Nueva relación"
+
+#: View/CompaniesUsers/view.ctp:2
+msgid "Companies User"
+msgstr "Relaciones"
+
+#: View/CompaniesUsers/view.ctp:9
+msgid "Company"
+msgstr "Empresa"
+
+#: View/CompaniesUsers/view.ctp:14
+msgid "User"
+msgstr "Usuario"
+
+#: View/CompaniesUsers/view.ctp:25
+msgid "Delete Companies User"
+msgstr "Eliminar relación"
+
+#: View/Orders/add.ctp:4
+msgid "Agregar pedido"
+msgstr "Agregar pedido"
+
+#: View/Orders/edit.ctp:4
+msgid "Modificar pedido"
+msgstr "Modificar pedido"
+
+#: View/Orders/index.ctp:2
+msgid "Pedidos"
+msgstr "Pedidos"
+
+#: View/Orders/index.ctp:48
+msgid ""
+"Página {:page} de {:pages}, mostrando {:current} órdenes de un total de {:"
+"count}, comenzando en la órden {:start}, terminando en {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} órdenes de un total de {:"
+"count}, comenzando en la órden {:start}, terminando en {:end}"
+
+#: View/Orders/index.ctp:62
+msgid "Nuevo pedido"
+msgstr "Nuevo pedido"
+
+#: View/Orders/view.ctp:3
+msgid "Pedido"
+msgstr "Pedido"
+
+#: View/Orders/view.ctp:35
+msgid "Fecha de emisión"
+msgstr "Fecha de emisión"
+
+#: View/Orders/view.ctp:40
+msgid "Fecha de envio"
+msgstr "Fecha de envio"
+
+#: View/Orders/view.ctp:50
+msgid "Estado"
+msgstr "Estado"
+
+#: View/Orders/view.ctp:60
+msgid "Editar Pedido"
+msgstr "Editar Pedido"
+
+#: View/Orders/view.ctp:61
+msgid "Eliminar pedido"
+msgstr "Eliminar pedido"
+
+#: View/Users/add.ctp:4
+msgid "Agregar usuario"
+msgstr "Agregar usuario"
+
+#: View/Users/change_password.ctp:4
+msgid "Cambio de contraseña"
+msgstr "Cambio de contraseña"
+
+#: View/Users/edit.ctp:4
+msgid "Editar usuario"
+msgstr "Editar usuario"
+
+#: View/Users/index.ctp:2
+msgid "Usuarios"
+msgstr "Usuarios"
+
+#: View/Users/index.ctp:21
+msgid "¿Seguro quieres eliminar el usuario %s?"
+msgstr "¿Seguro quieres eliminar el usuario %s?"
+
+#: View/Users/index.ctp:30
+msgid ""
+"Página {:page} de {:pages}, mostrando {:current} usuario(s) de un total de {:"
+"count}, comenzando en el usuario {:start}, terminando en el {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} usuario(s) de un total de {:"
+"count}, comenzando en el usuario {:start}, terminando en el {:end}"
+
+#: View/Users/index.ctp:44
+msgid "Nuevo usuario"
+msgstr "Nuevo usuario"
+
+#: View/Users/login.ctp:6
+msgid "Por favor introduzca su nombre de usuario y contraseña"
+msgstr "Por favor introduzca su nombre de usuario y contraseña"
+
+#: View/Users/login.ctp:12
+msgid "Login"
+msgstr "Login"
+
+#: View/Users/view.ctp:3
+msgid "Usuario"
+msgstr "Usuario"
+
+#: View/Users/view.ctp:30
+msgid "Cambiar contraseña"
+msgstr "Cambiar contraseña"
+
+#: View/Users/view.ctp:32
+msgid "¿Seguro quieres eliminar al usuario %s?"
+msgstr "¿Seguro quieres eliminar al usuario %s?"
+
+#: View/Users/view.ctp:37
+msgid "Empresas relacionadas"
+msgstr "Empresas relacionadas"
+
+#: Model/Client.php:validation for field name;validation rif;validation
+#: telefono;validation direccion Model/Company.php:validation name
+#: Model/Order.php:validation factura;validation status
+#: Model/User.php:validation type
+msgid "notEmpty"
+msgstr "notEmpty"
+
+#: Model/Client.php:validation for field rif
+msgid "El RIF ya ha sido introducido antes."
+msgstr "El RIF ya ha sido introducido antes."
+
+#: Model/CompaniesUser.php:validation for field company_id;validation user_id
+#: Model/Order.php:validation client_id;validation company_id
+msgid "numeric"
+msgstr "numeric"
+
+#: Model/Order.php:validation for field factura
+msgid "La factura ya existe."
+msgstr "La factura ya existe."
+
+#: Model/Order.php:validation for field emision
+msgid "datetime"
+msgstr "datetime"
+
+#: Model/Order.php:validation for field envio
+msgid "date"
+msgstr "date"
+
+#: Model/Order.php:validation for field status
+msgid "El estado actual de la orden"
+msgstr "El estado actual de la orden"
+
+#: Model/User.php:validation for field name
+msgid "Se necesita un nombre de usuario"
+msgstr "Se necesita un nombre de usuario"
+
+#: Model/User.php:validation for field name
+msgid "El usuario ya existe."
+msgstr "El usuario ya existe."
+
+#: Model/User.php:validation for field password
+msgid "Debes introducir una contraseña"
+msgstr "Debes introducir una contraseña"
+
+#: Model/User.php:validation for field password
+msgid "Al menos 6 caracteres."
+msgstr "Al menos 6 caracteres."
+
+#: Model/User.php:validation for field password
+msgid "Al menos debe contener un carácter alfabético."
+msgstr "Al menos debe contener un carácter alfabético."
+
+#: Model/User.php:validation for field type
+msgid "Selecciona el tipo de usuario a crear"
+msgstr "Selecciona el tipo de usuario a crear"
+
+msgid "January"
+msgstr "Enero"
