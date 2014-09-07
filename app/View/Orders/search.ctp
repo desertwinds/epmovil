@@ -33,8 +33,6 @@
 		<td><?php echo h($order['Order']['status']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('Ver'), array('action' => 'view', $order['Order']['id'])); ?>
-			<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $order['Order']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Cancelar'), array('action' => 'cancelar', $order['Order']['id']), array(), __('¿Seguro que deseas cancelar el pedido de factura %s?', $order['Order']['factura'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
@@ -60,3 +58,7 @@
 		<li><?php echo $this->Html->link(__('Nuevo pedido'), array('action' => 'add')); ?></li>
 	</ul>
 </div>
+<div class="actions">
+   <?php echo strtotime($orders[0]['Order']['emision'])?>
+</div>
+
