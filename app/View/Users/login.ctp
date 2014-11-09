@@ -7,7 +7,7 @@
         </legend>
 
 
-      <form class="form-signin" role="form" action="/project/users/login/" id="UserLoginForm" method="post" accept-charset="utf-8">
+      <form class="form-signin" role="form" action="/users/login/" id="UserLoginForm" method="post" accept-charset="utf-8">
 
           <input name="data[User][name]" type="text" class="form-control" maxlength="15" id="UserName" placeholder="Nombre de usuario" required="required" autofocus="">
         <input name="data[User][password]" type="password" class="form-control" id="UserPassword" placeholder="Contraseña" required="required">

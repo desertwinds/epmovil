@@ -7,6 +7,7 @@
 /build
 /dist
 /tags
+/Plugin/DebugKit
 *.mo
 
 # IDE and editor specific files #

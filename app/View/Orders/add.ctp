@@ -95,7 +95,7 @@ if(window.addEventListener){
 }
       function changeAddres(){
         var rif = document.getElementById("ClientRif").value;
-	jQuery.get('/project/orders/direccion/' + rif, function(data){
+	jQuery.get('/orders/direccion/' + rif, function(data){
   			
 	        document.getElementById("clientElement").innerHTML= data;
 	    })

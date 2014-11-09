@@ -21,6 +21,7 @@
 		"php": ">=5.2.8",
 		"ext-mcrypt": "*",
 		"slywalker/boost_cake": "*"
+		"cakephp/debug_kit": "2.2.*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*",

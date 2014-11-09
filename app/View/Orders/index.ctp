@@ -3,7 +3,6 @@
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('client_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('operador'); ?></th>
 			<th><?php echo $this->Paginator->sort('distribuidor'); ?></th>
@@ -18,7 +17,6 @@
 	<tbody>
 	<?php foreach ($orders as $order): ?>
 	<tr>
-		<td><?php echo h($order['Order']['id']); ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($order['Client']['name'], array('controller' => 'clients', 'action' => 'view', $order['Client']['id'])); ?>
 		</td>

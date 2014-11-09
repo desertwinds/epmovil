@@ -174,4 +174,32 @@ class UsersController extends AppController {
 		}
                 
 	}
+        
+        public function api_login() {
+        $this->autoRender = false;
+        if ($this->request->data && isset($this->request->data['User']['name']) && isset($this->request->data['User']['password'])) {
+
+            $arrUser  = $this->User->find('all',array(
+                    'conditions'=>array(
+                            'name'=> $this->request->data['User']['name'],
+                    )
+                )
+            );
+            if ($this->Auth->login()) {
+
+                $arrReturn['status'] = 'SUCCESS';
+                $arrReturn['data'] = array( 'loginSuccess' => 1,'user_id' => $arrUser[0]['User']['id'] );
+
+            } else {
+                $arrReturn['status'] = 'NOTLOGGEDIN';
+                $arrReturn['data'] = array( 'loginSuccess' => 0 );
+            }
+        } else {
+            $arrReturn['status'] = 'NOTLOGGEDIN';
+            $arrReturn['data'] = array( 'loginSuccess' => 0 );
+        }
+        $this->response->type('json');
+	$this->response->body(json_encode($arrReturn));
+	return $this->response;
+    }
 }

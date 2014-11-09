@@ -33,6 +33,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
     
     public $components = array(
+        'DebugKit.Toolbar',
         'Session',
         'Auth' => array(
             'loginRedirect' => array(
@@ -43,14 +44,14 @@ class AppController extends Controller {
                 'controller' => 'orders',
                 'action' => 'index'
             ),
-            'flash' => array(
-				'element' => 'alert',
-				'key' => 'auth',
-				'params' => array(
-					'plugin' => 'BoostCake',
-					'class' => 'alert-error'
-				)
-			),
+            #'flash' => array(
+		#		'element' => 'alert',
+		#		'key' => 'auth',
+		#		'params' => array(
+		#			'plugin' => 'BoostCake',
+		#			'class' => 'alert-error'
+		#		)
+		#	),
             'authError' => 'No tienes permisos de ver esa área',
             'authenticate' => array(
                 'Form' => array(
@@ -68,13 +69,13 @@ class AppController extends Controller {
     
     public $helpers = array(
 		'Session',
-		'Html' => array('className' => 'BoostCake.BoostCakeHtml'),
+		#'Html' => array('className' => 'BoostCake.BoostCakeHtml'),
 		'Form' => array('className' => 'BoostCake.BoostCakeForm'),
-		'Paginator' => array('className' => 'BoostCake.BoostCakePaginator'),
+		#'Paginator' => array('className' => 'BoostCake.BoostCakePaginator'),
 	);
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
+        $this->Auth->allow('index', 'view', 'my_orders', 'api_login');
         $this->check();
     }
     public function isAuthorized($user) {

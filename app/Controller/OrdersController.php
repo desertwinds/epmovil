@@ -21,6 +21,7 @@ class OrdersController extends AppController {
  * @return void
  */
 	public function index() {
+                #debug($this->Session->read());
 		$this->Order->recursive = 0;
 		$this->set('orders', $this->Paginator->paginate());
 	}
@@ -236,7 +237,7 @@ class OrdersController extends AppController {
  *
  * @return void
  */
-	public function search($fecha = 'dia') {
+	public function search($fecha = 'mes') {
 		$this->Order->recursive = 0;
                 $date = date('Y-m-d', time());
                 if ($fecha == 'dia'){
@@ -270,4 +271,20 @@ class OrdersController extends AppController {
                 $this->Paginator->settings = $paginate;
 		$this->set('orders', $this->Paginator->paginate());
 	}
+    
+/**
+ * my_orders method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function my_orders($id = null) {
+		
+                $options = array('conditions' => array('Order.distribuidor'  => $id));
+                $orders = $this->Order->find('all', $options);
+                $this->response->type('json');
+		$this->response->body(json_encode($orders));
+		return $this->response;
+	}        
 }
